@@ -6,4 +6,9 @@ public class A {
 		System.out.println("Hello! " + toWhom);
 	}
 
+	public void sayHi(String toWhom) {
+		B b = new B();
+		b.sayHi(toWhom);
+	}
+	
 }
